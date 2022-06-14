@@ -41,7 +41,7 @@ namespace ClassVehicle
         public void CurrentStatus()
         {
             Console.WriteLine($"Машина {vehicleType} \n Средний расход топлива {fuelAVG} \n" +
-                $" Объем бака {fuelTankVolume} \n Скорость {speed}\n Текущее топливо {currentFuel}\n Проедет на текущем топливе {RangeOnCurrentFuel()} км \n _________________________");
+                $" Объем бака {fuelTankVolume} \n Скорость {speed}\n Текущее топливо {currentFuel}\n Проедет на полном топливе {RangeOnFullfuel()} км \n _________________________");
         }
     }
 }
